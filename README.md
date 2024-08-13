@@ -70,7 +70,7 @@ Setting up the venv and install requirements is slightly different in Windows, i
 
 ```bash
 py -m venv venv                  # make a virtual environment called "venv"
-venv\Scripts\activate            # activate the virtual environment 
+venv\Scripts\activate            # activate the virtual environment source venv/bin/activate
 pip install -r requirements.txt  # install dependencies
 ```
 
